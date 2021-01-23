@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myeat">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyEat">
+        <activity android:name=".Sampai"></activity>
+        <activity android:name=".telor" />
+        <activity android:name=".manis" />
+        <activity android:name=".mibaso" />
+        <activity android:name=".miaja" />
+        <activity android:name=".cocacola" />
+        <activity android:name=".icecream" />
+        <activity android:name=".kentang" />
+        <activity android:name=".burger" />
+        <activity android:name=".ayam" />
+        <activity android:name=".satesapi" />
+        <activity android:name=".satekambing" />
+        <activity android:name=".sateayam" />
+        <activity android:name=".nomoz" />
+        <activity android:name=".moza" />
+        <activity android:name=".Marta" />
+        <activity android:name=".Mi" />
+        <activity android:name=".mcd" />
+        <activity android:name=".Sate" />
+        <activity android:name=".Geprek" />
+        <activity android:name=".Finish" />
+        <activity android:name=".Checkout" />
+        <activity android:name=".Maps" />
+        <activity android:name=".Open" />
+        <activity android:name=".BestSeller" />
+        <activity android:name=".Terdekat" />
+        <activity android:name=".Mainmenu" android:launchMode="singleTask"/>
+        <activity android:name=".Regis" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
